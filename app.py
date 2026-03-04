@@ -26,7 +26,6 @@ try:
     import geopandas
     import streamlit_folium
 except ImportError:
-    !pip install streamlit geopandas streamlit-folium
     # Re-import after installation
     import streamlit as st
     import geopandas as gpd
